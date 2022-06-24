@@ -1,0 +1,7 @@
+{
+  "sliders": [
+    {"slide_img": "images/banner-arte.jpg", "slide_alt": "Slider 001"},
+    {"slide_img": "images/banner-arte.jpg", "slide_alt": "Slider 002"},
+    {"slide_img": "images/banner-arte.jpg", "slide_alt": "Slider 003"}
+  ]
+}

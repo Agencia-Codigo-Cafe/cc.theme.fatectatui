@@ -1,0 +1,31 @@
+{
+  "cursos":[
+    {"nome": "Automação Industrial"},
+    {"nome": "Gestão Empresarial"},
+    {"nome": "Gestão da Tecnologia da Informação"},
+    {"nome": "Manutenção Industrial"},
+    {"nome": "Produção Fonográfica"},
+    {"nome": "EAD"}
+  ],
+  "semana":[
+    { "nome": "Segunda-feira"},
+    { "nome": "Terça-feira"},
+    { "nome": "Quarta-feira"},
+    { "nome": "Quinta-feira"},
+    { "nome": "Sexta-feira"},
+    { "nome": "Sábado"}
+  ],
+  "periodo": [
+    { "nome": "Manhã"},
+    { "nome": "Tarde"},
+    { "nome": "Noite"}
+  ],
+  "semestre": [
+    { "nome": "1º Semestre"},
+    { "nome": "2º Semestre"},
+    { "nome": "3º Semestre"},
+    { "nome": "4º Semestre"},
+    { "nome": "5º Semestre"},
+    { "nome": "6º Semestre"}
+  ]
+}

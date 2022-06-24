@@ -1,0 +1,81 @@
+<!-- ERP -->
+<div class="row mb-3 mt-4 mt-lg-0" appml-repeat="erp">
+  <div class="col-12">
+    <a href="{{erp_link}}"><img src="{{erp_img}}" alt="{{erp_alt}}" class="d-block w-100"></a>
+  </div>
+</div>
+<!-- ABMES -->
+<div class="row mb-3" appml-repeat="abmes">
+  <div class="col-12">
+    <a href="{{abmes_link}}"><img src="{{abmes_img}}" alt="{{abmes_alt}}" class="d-block w-100"></a>
+  </div>
+</div>
+<!-- Cursos -->
+<div class="row mb-3">
+  <div class="col-12 rounded-top py-2 aside-header">
+    <h3 class="m-0 p-0">Cursos</h3>
+  </div>
+  <ul class="list-group list-group-flush px-0">
+    <li class="list-group-item list-group-item-action" appml-repeat="cursos">
+      <a class="d-block text-body" href="{{curso_link}}">{{curso_nome}}</a>
+    </li>
+  </ul>
+</div>
+<!-- Parceiros -->
+<div class="row" appml-data="datas/parceiro.json" appml-controller="ativar_primeiro_parceiro">
+  <div class="col-12 rounded-top py-2 aside-header">
+    <h3 class="m-0 p-0">Parceiros</h3>
+  </div>
+  <div class="carousel slide carousel-dark" id="parceiros" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item py-3" appml-repeat="parceiros">
+        <a href="{{parceiro_link}}" target="_blank" class="d-flex justify-content-center">
+          <img src="{{parceiro_img}}" alt="{{parceiro_alt}}" class="d-block">
+        </a>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#parceiros" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#parceiros" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+<!-- Horário -->
+<div class="row">
+  <div class="col-12 rounded-top py-2 aside-header">
+    <h3 class="m-0 p-0">Horários</h3>
+  </div>
+  <div class="col-12">
+    <form action="" appml-data="datas/horario.json" class="mt-3">
+      <label for="curso" class="d-block">Curso</label>
+      <select name="curso" id="curso" class="mb-3 form-select" >
+        <option value="0" selected>-- Selecione um curso --</option>
+        <option value="{{nome}}" appml-repeat="cursos">{{nome}}</option>
+      </select>
+
+      <label for="semana" class="d-block">Dia da semana</label>
+      <select name="semana" id="semana" class="mb-3 form-select" >
+        <option value="0" selected>-- Selecione um dia da semana --</option>
+        <option value="{{nome}}" appml-repeat="semana">{{nome}}</option>
+      </select>
+
+      <label for="periodo" class="d-block">Período</label>
+      <select name="periodo" id="periodo" class="mb-3 form-select" >
+        <option value="0" selected>-- Selecione um período --</option>
+        <option value="{{nome}}" appml-repeat="periodo">{{nome}}</option>
+      </select>
+
+      <label for="semestre" class="d-block">Semestre</label>
+      <select name="semestre" id="semestre" class="mb-4 form-select" >
+        <option value="0" selected>-- Selecione um semestre --</option>
+        <option value="{{nome}}" appml-repeat="semestre">{{nome}}</option>
+      </select>
+
+      <input type="submit" class="btn btn-danger d-block w-100" value="Ver aulas">
+    </form>
+  </div>
+</div>

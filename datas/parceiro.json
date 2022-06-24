@@ -1,0 +1,13 @@
+{
+  "parceiros": [
+    {"parceiro_img": "https://fatectatui.edu.br/site2/imagens/home3/compweb.jpg", "parceiro_alt": "CompWeb", "parceiro_link": "https://www.compweb.com.br/"},
+    {"parceiro_img": "https://fatectatui.edu.br/site2/imagens/home3/elektro.jpg", "parceiro_alt": "Elektro", "parceiro_link": "https://www.neoenergiaelektro.com.br/"},
+    {"parceiro_img": "https://fatectatui.edu.br/site2/imagens/home3/compass.jpg", "parceiro_alt": "Compass", "parceiro_link": "http://www.ctscompass.com/"},
+    {"parceiro_img": "https://fatectatui.edu.br/site2/imagens/home3/hadar.jpg", "parceiro_alt": "Revista Hadar", "parceiro_link": "http://www.revistahadar.com.br/"},
+    {"parceiro_img": "https://fatectatui.edu.br/site2/imagens/home3/prefeitura.jpg", "parceiro_alt": "Prefeitura Tatuí", "parceiro_link": "https://www2.tatui.sp.gov.br/"},
+    {"parceiro_img": "https://fatectatui.edu.br/site2/imagens/home3/tvtem.jpg", "parceiro_alt": "TV TEM", "parceiro_link": "https://redeglobo.globo.com/sp/tvtem/"},
+    {"parceiro_img": "https://fatectatui.edu.br/site2/imagens/home3/oprogresso.jpg", "parceiro_alt": "O Progresso", "parceiro_link": "https://oprogressodetatui.com.br/"},
+    {"parceiro_img": "https://fatectatui.edu.br/site2/imagens/home3/crtv.jpg", "parceiro_alt": "CR TV", "parceiro_link": "http://crtv.tv.br/"},
+    {"parceiro_img": "https://fatectatui.edu.br/site2/imagens/home3/brf.jpg", "parceiro_alt": "BRF", "parceiro_link": "https://www.brf-global.com/"}
+  ]
+}

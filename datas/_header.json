@@ -1,0 +1,78 @@
+{
+  "logo_img": "images/logo-fatec-tatui-branco-header.png",
+  "logo_alt": "Fatec Tatuí",
+  "menu": [
+    {
+      "item": "Vestibular",
+      "link": "#",
+      "submenu": [
+        {"item": "Vestibular 2022-2", "link": "#"},
+        {"item": "Nossos Cursos", "link": "#"},
+        {"item": "Conheça a FATEC", "link": "#"}
+      ]
+    },
+    {
+      "item": "Cursos",
+      "link": "#",
+      "submenu": [
+        { "item": "Automação Industrial", "link": "#"},
+        { "item": "Gestão Empresarial", "link": "#"},
+        { "item": "Gestão da Tecnologia da Informação", "link": "#"},
+        { "item": "Manutenção Industrial", "link": "#"},
+        { "item": "Produção Fonográfica", "link": "#"}
+      ]
+    },
+    {
+      "item": "Alunos",
+      "link": "#",
+      "submenu": [
+        {"item": "AACC", "link": "#"},
+        {"item": "Calendário 2022-1", "link": "#"},
+        {"item": "Ementas dos Cursos", "link": "#"},
+        {"item": "Estágios", "link": "#"},
+        {"item": "Guia do Aluno 2021", "link": "#"},
+        {"item": "Matrizes Curriculares", "link": "#"},
+        {"item": "Monitoria de Iniciação", "link": "#"},
+        {"item": "SIGA", "link": "#"}
+      ]
+    },
+    {
+      "item": "Setores",
+      "link": "#",
+      "submenu": [
+        {"item": "Administrativos", "link": "#"},
+        {"item": "Biblioteca", "link": "#"},
+        {"item": "Congregação", "link": "#"},
+        {"item": "Corpo Docente", "link": "#"}
+      ]
+    },
+    {
+      "item": "Institucional",
+      "link": "#",
+      "submenu": [
+        {"item": "Entre em contato", "link": "#"},
+        {"item": "Conheça a FATEC Tatuí", "link": "#"},
+        {"item": "Anais", "link": "#"},
+        {"item": "Anais mostra de Doc. em RJI", "link": "#"},
+        {"item": "Caderno de Resumos - Monitoria de Iniciação", "link": "#"},
+        {"item": "Jornal Fatecano", "link": "#"},
+        {"item": "Glossário PFO", "link": "#"},
+        {"item": "NELF", "link": "#"},
+        {"item": "Revista Sapere", "link": "#"}
+      ]
+    },
+    {
+      "item": "Acadêmico",
+      "link": "#",
+      "submenu": [
+        {"item": "Caderno 2022-1", "link": "#"},
+        {"item": "Concursos e P. Seletivos", "link": "#"},
+        {"item": "Ementas dos Cursos", "link": "#"},
+        {"item": "Regulamento de Graduação", "link": "#"},
+        {"item": "Solicitação de Documentos", "link": "#"}
+      ]
+    }
+  ],
+  "siga_texto": "Siga",
+  "siga_link": "#"
+}

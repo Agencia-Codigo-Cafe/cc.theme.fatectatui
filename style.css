@@ -1,0 +1,41 @@
+:root {
+  --vermelho-primario: #B12C2F;
+  --vermelho-secundario: #E85B5E;
+  --preto-primario: #354750;
+  --preto-secundario: #475C67;
+  --preto-terciario: #7A97A6;
+}
+
+.header {
+  background-color: var(--preto-secundario);
+}
+.header-logo {
+  background-image: linear-gradient(to bottom, var(--vermelho-secundario), var(--vermelho-primario));
+}
+
+.aside {}
+.aside-header {
+  background-color: var(--preto-primario);
+}
+.aside-header h3 {
+  color: #fff;
+}
+
+.newsletter {
+  background-color: var(--vermelho-primario);
+}
+.newsletter h2 {
+  color: #fff;
+}
+
+.contato {
+  /* background-color: var(--preto-secundario); */
+}
+
+.footer {
+  background-color: var(--preto-primario);
+}
+
+#parceiros .carousel-inner .carousel-item a img {
+  max-width: 200px;
+}

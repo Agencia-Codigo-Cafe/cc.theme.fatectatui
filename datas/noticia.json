@@ -1,0 +1,9 @@
+{
+  "noticias" : [
+    {"titulo" : "Título 001", "descricao": "orem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consequat arcu turpis, at porta enim tincidunt et. Nunc sit amet leo nisi. Duis accumsan nibh mi, sed vestibulum mauris lacinia id.", "link": "#", "image": "images/noticia-img-1.jpg"},
+    {"titulo" : "Título 002", "descricao": "orem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consequat arcu turpis, at porta enim tincidunt et. Nunc sit amet leo nisi. Duis accumsan nibh mi, sed vestibulum mauris lacinia id.", "link": "#", "image": "images/noticia-img-1.jpg"},
+    {"titulo" : "Título 003", "descricao": "orem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consequat arcu turpis, at porta enim tincidunt et. Nunc sit amet leo nisi. Duis accumsan nibh mi, sed vestibulum mauris lacinia id.", "link": "#", "image": "images/noticia-img-1.jpg"},
+    {"titulo" : "Título 004", "descricao": "orem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consequat arcu turpis, at porta enim tincidunt et. Nunc sit amet leo nisi. Duis accumsan nibh mi, sed vestibulum mauris lacinia id.", "link": "#", "image": "images/noticia-img-1.jpg"},
+    {"titulo" : "Título 005", "descricao": "orem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consequat arcu turpis, at porta enim tincidunt et. Nunc sit amet leo nisi. Duis accumsan nibh mi, sed vestibulum mauris lacinia id.", "link": "#", "image": "images/noticia-img-1.jpg"}
+  ]
+}

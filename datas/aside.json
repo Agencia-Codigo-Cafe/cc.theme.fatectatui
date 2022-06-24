@@ -1,0 +1,16 @@
+{
+  "erp": [
+    {"erp_img": "images/erp-professor.png", "erp_alt": "SIGA para Professores", "erp_link": "#"},
+    {"erp_img": "images/erp-aluno.png", "erp_alt": "SIGA para Alunos", "erp_link": "#"}
+  ],
+  "abmes": [
+    {"abmes_img": "images/abmes.png", "abmes_alt": "Instituição Social das IES", "abmes_link": "#"}
+  ],
+  "cursos": [
+    {"curso_nome": "Automação Industrial", "curso_link": "#"},
+    {"curso_nome": "Gestão Empresarial", "curso_link": "#"},
+    {"curso_nome": "Gestão da Tecnologia da Informação", "curso_link": "#"},
+    {"curso_nome": "Manutenção Industrial", "curso_link": "#"},
+    {"curso_nome": "Produção Fonográfica", "curso_link": "#"}
+  ]
+}

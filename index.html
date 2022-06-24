@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fatec Tatuí</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="container-fuild sticky-top header" appml-include-html="_header.html"></header>
+
+  <section class="container slider my-4" appml-include-html="__slider.html"></section>
+
+  <section class="container aside">
+    <div class="row">
+      <div class="col-12 col-lg-9">
+        <div class="row">
+          <div class="col-12" appml-include-html="__noticia.html" appml-data="datas/noticia.json"></div>
+        </div>
+        <div class="row py-5 px-3 px-lg-5 rounded newsletter" appml-include-html="__newsletter.html"></div>
+      </div>
+      <aside class="col-12 col-lg-3" appml-data="datas/aside.json" appml-include-html="__aside.html"></aside>
+    </div>
+  </section>
+
+  <div class="container my-4 p-3 p-lg-5 contato">
+    <div class="row">
+      <div class="col-12 col-lg-6 pe-lg-4 mb-3 mb-lg-0" appml-include-html="__contato.html"></div>
+      <div class="col-12 col-lg-6" appml-include-html="__mapa.html"></div>
+    </div>
+  </div>
+
+  <footer appml-include-html="_footer.html"></footer>
+
+  <script src="https://www.w3schools.com/appml/2.0.3/appml.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+</html>
