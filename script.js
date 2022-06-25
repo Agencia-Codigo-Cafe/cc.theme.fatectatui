@@ -14,7 +14,7 @@ function ativar_primeiro_parceiro($appml){
 
 function criar_submenu(){
   $appml = new AppML();
-  $appml.dataSource = 'http://127.0.0.1:5500/datas/_header.json';
+  $appml.dataSource = './datas/_header.json';
   $appml.getData();
 
   const container = document.querySelector('#menu'); 
